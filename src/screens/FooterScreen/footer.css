@@ -1,0 +1,22 @@
+footer{
+    padding: 3rem 0;
+    background-color: #fff;
+}
+footer .container-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1350px;
+    margin: 0 auto;
+    box-sizing: content-box;
+    padding: 0 24px;
+    color: gray;
+}
+footer .container-footer .right ul{
+    display: flex;
+    gap: 2rem;
+}
+footer .container-footer .right ul li{
+    list-style: none;
+}

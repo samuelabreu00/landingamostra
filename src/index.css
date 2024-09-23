@@ -1,0 +1,124 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+@media (max-width:815px) {
+  section.about .container-about .container-box{
+    overflow-x: auto;
+  }
+  section.exemplo .container-exemplo .container-box{
+    flex-direction: column;
+  }
+  section.blog .container-blog{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    
+  }
+  section.blog .container-blog .right{
+    width: 100%;
+  }
+  section.blog .container-blog .right .content-right input{
+    width: 100%;
+  }
+  section.blog .container-blog .left p{
+    width: 100%;
+  }
+ 
+}
+@media (max-width:450px){
+ 
+  footer .container-footer{
+    flex-direction: column;
+    gap: 2rem;
+  
+  }
+  section.blog .container-blog h1, section.service .container-service h1 , section.exemplo .container-exemplo h1, section.blog .container-blog .left h1, section.home .container-home .content-home h1, section.about .container-about h1.title-prin{
+    font-size: 32px;
+  }
+  header{
+    position: fixed;
+    top: 30px;
+    left: -10px;
+    width: 100%;
+    z-index: 2;
+    padding: 1rem 0;
+}
+header .container-header ul{
+    gap: 1.2rem !important;
+}
+header .container-hamburguer{
+    display: block;
+    position: relative;
+   z-index: 2;
+}
+.hamburguer.active .bar:nth-child(2){
+    opacity: 0;
+}
+.hamburguer.active .bar:nth-child(1){
+   transform: translateY(8px) rotate(45deg);
+   border-radius: 5px;
+}
+.hamburguer.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+    border-radius: 5px;
+ }
+ .nav-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(4, 100, 98);
+  flex-direction: column;
+  justify-content: center;
+    height: 40%;
+    width: 100%;
+    z-index: 1;
+    transition: .6s;
+    overflow: hidden;
+    transform: translateY(-100%);
+
+    
+}
+.nav-menu li{
+    font-size: 20px;
+    text-align: center !important;
+
+    
+}
+.nav-menu li a{
+    
+    background-clip: text;
+   
+    color:#fff;
+    font-size: 18px;
+  
+}
+
+.nav-menu.active{
+    transform: translateY(0%);
+    padding: 12px 2rem;
+    box-shadow: 1px 5px 15px 1px #000000;
+}
+section.home header ul li a.ative{
+  color: gray;
+}
+}
+@media (max-width:370px){
+  section.exemplo .container-exemplo .container-box .box{
+    margin: 6rem 6rem 0 2rem;
+  }
+  section.exemplo .container-exemplo .container-box .box h3{
+    font-size: 23px;
+  }
+  section.exemplo .container-exemplo .container-box .box a div{
+    font-size: 12px;
+  }
+}

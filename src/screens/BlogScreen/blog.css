@@ -1,0 +1,65 @@
+section.blog{
+    background-color: rgb(0 43 42);
+    padding: 5rem 0;
+}
+section.blog .container-blog{
+    max-width: 1350px;
+    box-sizing: content-box;
+    margin: 0 auto;
+    padding: 0 24px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+section.blog .container-blog .left h1{
+    color: rgb(84, 220, 184);
+    display: inline-block;
+    background: linear-gradient(to right, rgb(0 135 99), rgb(0 43 42));
+    padding: 0 5px;
+}
+
+section.blog .container-blog .left p{
+    width: 50%;
+    margin: 12px 0;
+    color: #fff;
+}
+section.blog .container-blog .left a{
+    color: rgb(84, 220, 184);
+}
+section.blog .container-blog .right .content-right{
+    display: flex;
+    flex-direction: column;
+}
+section.blog .container-blog .right .content-right span{
+    color: rgb(84, 220, 184);
+}
+section.blog .container-blog .right .content-right input{
+    width: 400px;
+    margin: 6px 0;
+    padding: .8rem;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+
+}
+section.blog .container-blog .right .content-right textarea{
+    padding: .8rem;
+    margin: 6px 0 12px;
+    border-radius: 8px;
+    outline: none;
+}
+section.blog .container-blog .right .content-right button{
+    background-color: rgb(0 135 99);
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: .8rem ;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}

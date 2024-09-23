@@ -1,0 +1,48 @@
+section.about{
+    padding: 5rem 0;
+    background-color: #fff;
+}
+section.about .container-about{
+    max-width: 1350px;
+    padding: 0 24px;
+    box-sizing: content-box;
+    margin: 0 auto;
+}
+section.about .container-about h1.title-prin{
+    color: rgb(0 135 99);
+}
+section.about .container-about .container-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+section.about .container-about .container-box h1{
+    font-size: 32px;
+    color: rgb(0 135 99);
+}
+section.about .container-about .container-box span.green{
+    color: rgb(0 135 99);
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+section.about .container-about .container-box p span{
+    color: rgb(0 135 99);
+    font-weight: bold;
+}
+section.about .container-about a{
+    margin-top: 5rem;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+
+}
+section.about .container-about a div{
+    background-color: rgb(0 135 99);
+    padding: .5rem 3rem;
+    border-radius: 10px;
+}
